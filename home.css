@@ -1,0 +1,30 @@
+/* home.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#file {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+label:hover {
+    background-color: #2980b9;
+}
